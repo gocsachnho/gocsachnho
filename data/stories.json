@@ -1,0 +1,24 @@
+[
+  {
+    "id": "truyen-kinh-di-01",
+    "title": "Tiếng Gõ Cửa Lúc Nửa Đêm",
+    "author": "Người Kể Chuyện Đêm Khuya",
+    "category": "Kinh dị",
+    "summary": "Một câu chuyện ly kỳ xảy ra tại một căn phòng trọ nhỏ, nơi những tiếng gõ cửa bí ẩn vang lên đúng 12 giờ đêm nhưng bên ngoài không một bóng người...",
+    "affiliate_book_link": "https://shope.ee/vi-du-link-affiliate-sach-giay",
+    "chapters": [
+      {
+        "chapter_id": "chuong-1",
+        "chapter_title": "Chương 1: Căn phòng số 13",
+        "content": "Nội dung Chương 1 đang được cập nhật... Bạn có thể tự thay thế nội dung truyện của mình ở đây một cách dễ dàng.",
+        "next_chapter_shortlink": ""
+      },
+      {
+        "chapter_id": "chuong-2",
+        "chapter_title": "Chương 2: Tiếng gõ cửa bí ẩn",
+        "content": "Nội dung Chương 2 đầy kịch tính... Để đọc tiếp các chương cao trào tiếp theo, độc giả sẽ bấm vào nút Chương Sau để qua link rút gọn.",
+        "next_chapter_shortlink": "https://link-rut-gon-kiem-tien-cua-ban.com/abc123_vi_du"
+      }
+    ]
+  }
+]
