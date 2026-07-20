@@ -17,8 +17,8 @@
   --shadow:      0 2px 12px rgba(0,0,0,0.07);
   --shadow-hover:0 6px 24px rgba(0,0,0,0.12);
   --radius:      10px;
-  --font-body:   'Merriweather', Georgia, serif;
-  --font-ui:     'Inter', system-ui, sans-serif;
+  --font-body:   'Playfair Display', serif;
+  --font-ui:     'Be Vietnam Pro', sans-serif;
   --transition:  0.2s ease;
 }
 
@@ -442,31 +442,43 @@ nav a:hover, nav a.active {
   margin-top: 32px;
 }
 
-.chapter-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 14px 16px;
-  border-radius: 8px;
-  transition: background var(--transition);
-  border-bottom: 1px solid var(--border);
-  cursor: pointer;
+.chapter-item{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:18px;
+  border-radius:12px;
+  border-bottom:1px solid var(--border);
+  transition:all .25s ease;
+  cursor:pointer;
 }
 
-.chapter-item:hover { background: var(--bg-hover); }
-.chapter-item:last-child { border-bottom: none; }
-
-.chapter-item__title {
-  font-size: 0.95rem;
-  color: var(--text);
-  font-weight: 500;
+.chapter-item:hover{
+  background:#faf5f7;
+  transform:translateX(6px);
 }
 
-.chapter-item__date {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  white-space: nowrap;
-  margin-left: 16px;
+.chapter-item:last-child{border-bottom:none;}
+
+.chapter-item__title{
+  font-family:var(--font-ui);
+  font-size:17px;
+  font-weight:600;
+  line-height:1.6;
+  color:#3f3f46;
+  transition:.25s;
+}
+
+.chapter-item:hover .chapter-item__title{
+  color:#d14f8d;
+}
+
+.chapter-item__date{
+  font-size:14px;
+  font-weight:500;
+  color:#9ca3af;
+  white-space:nowrap;
+  margin-left:16px;
 }
 
 /* ---------- 10. CHAPTER READING PAGE ---------- */
